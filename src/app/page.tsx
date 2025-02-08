@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
           <div className="flex w-full justify-center items-center">
             <Input
-              className="w-96 sm:w-[50%] dark:text-white"
+              className="sm:w-[50%] dark:text-white"
               onChange={(e) => setPath(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
